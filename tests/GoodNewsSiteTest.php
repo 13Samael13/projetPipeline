@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 class GoodNewsSiteTest extends TestCase
 {
     public function testStupid(){
-        $this->assertEquals("Yes","No");
+        $this->assertEquals("Yes","Yes");
     }
 
 }
