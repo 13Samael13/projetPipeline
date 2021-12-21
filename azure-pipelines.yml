@@ -26,7 +26,7 @@ steps:
   displayName: 'composer install'
 #### UNIQUEMENT COPIER CE QUI SE TROUVE CI-DESSOUS ET ADAPTER SUIVANT L'ENDROIT(dossier) OU SE TROUVE VOS TESTS
 
-- script: ./vendor/bin/phpunit *Test.php
+- script: ./vendor/bin/phpunit tests/*Test.php
   displayName: 'Running Unit tests'
 
 - task: ArchiveFiles@2
